@@ -27,7 +27,7 @@ namespace Tyuiu.AleevRI.Sprint5.Task5.V23.Test
             double res = ds.LoadFromDataFile(strX);
             double wait = -9;
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, res); 
         }
     }
 }
